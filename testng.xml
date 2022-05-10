@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testase_360.LoginTest"/>
+      <class name="testase_360.PropertyFunctionalityTest"/>
+      <class name="testase_360.LogoutTest"/>
+      <class name="testase_360.PropertyTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
