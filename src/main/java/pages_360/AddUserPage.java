@@ -54,9 +54,9 @@ public class AddUserPage {
 		Thread.sleep(3000);
 		lName.sendKeys("Prama");
 		Thread.sleep(3000);
-		email.sendKeys("ajji@yopmail.com");
+		email.sendKeys("akmi@yopmail.com");
 		Thread.sleep(3000);
-		phone.sendKeys("9674405756");
+		phone.sendKeys("9694409756");
 		Thread.sleep(3000);
 		flatNum.click();
 		Thread.sleep(3000);

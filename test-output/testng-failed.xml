@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testase_360.AddUserTest">
+      <class name="testase_360.BlocksWingsTest">
         <methods>
-          <include name="Property"/>
           <include name="teardown"/>
+          <include name="BlockTests"/>
         </methods>
-      </class> <!-- testase_360.AddUserTest -->
+      </class> <!-- testase_360.BlocksWingsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
