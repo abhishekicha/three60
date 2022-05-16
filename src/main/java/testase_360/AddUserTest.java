@@ -14,7 +14,7 @@ import pages_360.AddUserPage;
 public class AddUserTest {
 	
 	@Test (groups = { "sanity" })
-	public void Property() throws InterruptedException {
+	public void AddUser() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");

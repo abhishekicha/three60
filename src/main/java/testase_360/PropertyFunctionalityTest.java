@@ -14,7 +14,7 @@ import pages_360.PropertyFunctionalityPage;
 public class PropertyFunctionalityTest {
 	
 	@Test (groups = { "sanity" })
-	public void Property() throws InterruptedException {
+	public void PropertyFunctionality() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");
