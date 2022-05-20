@@ -9,6 +9,7 @@
       <class name="testase_360.PropertyFunctionalityTest"/>
       <class name="testase_360.LogoutTest"/>
       <class name="testase_360.PropertyTest"/>
+      <class name="testase_360.VehicleSetupTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

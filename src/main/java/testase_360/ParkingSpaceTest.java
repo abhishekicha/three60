@@ -6,14 +6,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import helper.BrowserFactory;
-import pages_360.VehicleSetupPage;
 import pages_360.LoginPage;
+import pages_360.ParkingSpacePaage;
 
 
-public class VehicleSetupTest {
+public class ParkingSpaceTest {
 	
 	@Test (groups = { "sanity" })
-	public void VehicleSetup() throws InterruptedException {
+	public void Property() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");
@@ -22,25 +22,16 @@ public class VehicleSetupTest {
 		LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
 		//call the method
 		login_page.login_to_360("surajbiswas@yopmail.com", "suraj8877");
-
 		
-		VehicleSetupPage vehicle_setup_test  = PageFactory.initElements(driver, VehicleSetupPage.class);
-		
-		vehicle_setup_test.VehicleSetupPageTest();
-		
-		vehicle_setup_test.VehicleTypeAddTest();
-		
-		vehicle_setup_test.VehicleTypeFunctionality();
-
-		vehicle_setup_test.VehicleTypeAddTestWithoutOwner();
-		
-		vehicle_setup_test.VehicleTypeResetButton();
+		ParkingSpacePaage pspage = PageFactory.initElements(driver, ParkingSpacePaage.class);
+		pspage.parkingspace_test();
 	}
 	
-	@AfterMethod(alwaysRun = true)
+	 @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();
 	  }
+
 
 }

@@ -3,15 +3,12 @@ package pages_360;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class VehicleSetupPage {
 	
@@ -60,7 +57,7 @@ public class VehicleSetupPage {
 	
 	public  void VehicleSetupPageTest() throws InterruptedException {
 		  
-		Thread.sleep(7000);
+		Thread.sleep(10000);
 		Actions actions = new Actions(driver);
         WebElement menuOption = Property;
         Thread.sleep(3000);

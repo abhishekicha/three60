@@ -6,6 +6,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -13,6 +18,7 @@ public class BrowserFactory {
 
 	
 	public static WebDriver driver;
+	
 	
 	
 	public static  WebDriver startBrowser(String browserName, String url) {
@@ -37,9 +43,12 @@ public class BrowserFactory {
 		driver.manage().window().maximize();
 		driver.get(url);
 		
+		
 		return driver;
 		
 	}
+	
+	
 	
 	 public static void quit()
 	   {

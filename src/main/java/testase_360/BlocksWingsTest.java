@@ -21,7 +21,7 @@ public class BlocksWingsTest {
 		//created page object using page factory
 		LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
 		//call the method
-		login_page.login_to_360("securnyx360@aol.com", "The360@2022");
+		login_page.login_to_360("surajbiswas@yopmail.com", "suraj8877");
 
 		
 		BlocksWingsPage b_page = PageFactory.initElements(driver, BlocksWingsPage.class);

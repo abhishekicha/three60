@@ -6,14 +6,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import helper.BrowserFactory;
-import pages_360.VehicleSetupPage;
 import pages_360.LoginPage;
+import pages_360.GuardProfilePage;
 
 
-public class VehicleSetupTest {
+public class GuardProfileTest {
 	
 	@Test (groups = { "sanity" })
-	public void VehicleSetup() throws InterruptedException {
+	public void Property() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");
@@ -22,22 +22,35 @@ public class VehicleSetupTest {
 		LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
 		//call the method
 		login_page.login_to_360("surajbiswas@yopmail.com", "suraj8877");
-
 		
-		VehicleSetupPage vehicle_setup_test  = PageFactory.initElements(driver, VehicleSetupPage.class);
+		GuardProfilePage gpb = PageFactory.initElements(driver, GuardProfilePage.class);
 		
-		vehicle_setup_test.VehicleSetupPageTest();
+		gpb.guard_profile_test();
 		
-		vehicle_setup_test.VehicleTypeAddTest();
+		gpb.addGuard_test();
 		
-		vehicle_setup_test.VehicleTypeFunctionality();
-
-		vehicle_setup_test.VehicleTypeAddTestWithoutOwner();
+		gpb.clearScreen();
 		
-		vehicle_setup_test.VehicleTypeResetButton();
+		gpb.addGuard_test_noFirstName();
+		
+		gpb.clearScreen();
+		
+		gpb.addGuard_test_noLastName();
+		
+		gpb.clearScreen();
+		
+		gpb.addGuard_test_noPhoneNumber();
+		
+		gpb.clearScreen();
+		
+		gpb.addGuard_allBlank();
+		
+		gpb.editGuard();
+		
+		
 	}
 	
-	@AfterMethod(alwaysRun = true)
+	 @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();
