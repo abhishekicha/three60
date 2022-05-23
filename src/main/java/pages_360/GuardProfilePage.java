@@ -122,10 +122,10 @@ public void clearScreen() throws InterruptedException{
 	fName.sendKeys(Keys.DELETE);
 	Thread.sleep(3000);
 	lName.sendKeys(Keys.CONTROL + "a");
-	lName.sendKeys(Keys.DELETE);	Thread.sleep(3000);
+	lName.sendKeys(Keys.DELETE);	
 	Thread.sleep(3000);
 	ph.sendKeys(Keys.CONTROL + "a");
-	ph.sendKeys(Keys.DELETE);	Thread.sleep(3000);
+	ph.sendKeys(Keys.DELETE);	
 	Thread.sleep(3000);
 }
 
