@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T10:38:36 IST" name="Default suite" finished-at="2022-05-25T10:39:39 IST" duration-ms="63803">
+  <suite started-at="2022-05-25T16:21:58 IST" name="Default suite" finished-at="2022-05-25T16:23:20 IST" duration-ms="82087">
     <groups>
     </groups>
-    <test started-at="2022-05-25T10:38:36 IST" name="Default test" finished-at="2022-05-25T10:39:39 IST" duration-ms="63803">
-      <class name="testase_360.FlatsTest">
-        <test-method signature="Property()[pri:0, instance:testase_360.FlatsTest@1a451d4d]" started-at="2022-05-25T10:38:36 IST" name="Property" finished-at="2022-05-25T10:39:39 IST" duration-ms="63622" status="PASS">
+    <test started-at="2022-05-25T16:21:58 IST" name="Default test" finished-at="2022-05-25T16:23:20 IST" duration-ms="82087">
+      <class name="testase_360.TenantsTest">
+        <test-method signature="Property()[pri:0, instance:testase_360.TenantsTest@1a451d4d]" started-at="2022-05-25T16:21:58 IST" name="Property" finished-at="2022-05-25T16:23:20 IST" duration-ms="81878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Property -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testase_360.FlatsTest@1a451d4d]" started-at="2022-05-25T10:39:39 IST" name="teardown" finished-at="2022-05-25T10:39:39 IST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testase_360.TenantsTest@1a451d4d]" started-at="2022-05-25T16:23:20 IST" name="teardown" finished-at="2022-05-25T16:23:20 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testase_360.FlatsTest -->
+      </class> <!-- testase_360.TenantsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

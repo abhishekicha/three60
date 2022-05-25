@@ -31,7 +31,7 @@ public class FlatsPage {
 	@FindBy(xpath="//div[@class='multiselect__select']")
     WebElement flatOwnerDropdown;
 	
-	@FindBy(xpath="//span[text()='kutal mjhi     8974566123']")
+	@FindBy(xpath="//span[text()='Soumya Kanti Jana     7003034823']")
     WebElement flatOwnerSelect;
 	
 	@FindBy(xpath="//button[@class='plus']")
@@ -81,7 +81,7 @@ public class FlatsPage {
 			
 			public  void create_flat_test() throws InterruptedException {
 				
-				flatNo.sendKeys("AA");
+				flatNo.sendKeys("hh");
 				Thread.sleep(3000);
 				areaInSqFt.sendKeys("1000");
 				Thread.sleep(3000);
