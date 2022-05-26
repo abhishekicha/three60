@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T16:21:58 IST" name="Default suite" finished-at="2022-05-25T16:23:20 IST" duration-ms="82087">
+  <suite started-at="2022-05-26T15:36:26 IST" name="Default suite" finished-at="2022-05-26T15:38:51 IST" duration-ms="144650">
     <groups>
     </groups>
-    <test started-at="2022-05-25T16:21:58 IST" name="Default test" finished-at="2022-05-25T16:23:20 IST" duration-ms="82087">
+    <test started-at="2022-05-26T15:36:26 IST" name="Default test" finished-at="2022-05-26T15:38:51 IST" duration-ms="144650">
       <class name="testase_360.TenantsTest">
-        <test-method signature="Property()[pri:0, instance:testase_360.TenantsTest@1a451d4d]" started-at="2022-05-25T16:21:58 IST" name="Property" finished-at="2022-05-25T16:23:20 IST" duration-ms="81878" status="PASS">
+        <test-method signature="Property()[pri:0, instance:testase_360.TenantsTest@1a451d4d]" started-at="2022-05-26T15:36:26 IST" name="Property" finished-at="2022-05-26T15:38:51 IST" duration-ms="144455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Property -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testase_360.TenantsTest@1a451d4d]" started-at="2022-05-25T16:23:20 IST" name="teardown" finished-at="2022-05-25T16:23:20 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testase_360.TenantsTest@1a451d4d]" started-at="2022-05-26T15:38:51 IST" name="teardown" finished-at="2022-05-26T15:38:51 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

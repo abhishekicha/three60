@@ -34,6 +34,7 @@ public class TenantsTest {
 		
 		tPage.add_tenants_test_withoutkyc();
 		
+		
 		tPage.tenants_list_test();
 		
 	}

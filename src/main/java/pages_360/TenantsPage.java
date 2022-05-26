@@ -1,11 +1,16 @@
 package pages_360;
 
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 
 public class TenantsPage {
@@ -108,7 +113,7 @@ public class TenantsPage {
 		
 		addTenants.click();
 		Thread.sleep(3000);
-		mobileNumber.sendKeys("8777839478");
+		mobileNumber.sendKeys("9834281450");
 		Thread.sleep(3000);
 		next.click();
 		Thread.sleep(3000);
@@ -116,11 +121,11 @@ public class TenantsPage {
 		Thread.sleep(1000);
 		flatNo.click();
 		Thread.sleep(1000);
-		eMail.sendKeys("pramaaa@email.com");
+		eMail.sendKeys("jmcokkty@gmail.com");
 		Thread.sleep(1000);
-		fName.sendKeys("aviisek");
+		fName.sendKeys("holckknty");
 		Thread.sleep(1000);
-		lName.sendKeys("Pramaanik");
+		lName.sendKeys("dey");
 		Thread.sleep(1000);
 		photo.sendKeys("C:\\Users\\admin\\Downloads\\profile.png"); //Uploading the file using sendKeys
 		System.out.println("File is Uploaded Successfully");
@@ -132,7 +137,7 @@ public class TenantsPage {
 		System.out.println("File is Uploaded Successfully");
 		Thread.sleep(1000);
 		submit.click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		
 	}
 	
@@ -140,7 +145,7 @@ public  void add_tenants_test_withoutName() throws InterruptedException {
 		
 		addTenants.click();
 		Thread.sleep(3000);
-		mobileNumber.sendKeys("8777839471");
+		mobileNumber.sendKeys("9442216745");
 		Thread.sleep(3000);
 		next.click();
 		Thread.sleep(3000);
@@ -148,9 +153,9 @@ public  void add_tenants_test_withoutName() throws InterruptedException {
 		Thread.sleep(1000);
 		flatNo.click();
 		Thread.sleep(1000);
-		eMail.sendKeys("pramaaa@email.com");
+		eMail.sendKeys("kjfhlu@email.com");
 		Thread.sleep(1000);
-		lName.sendKeys("Pramaanik");
+		lName.sendKeys("ksfhlhlamik");
 		Thread.sleep(1000);
 		photo.sendKeys("C:\\Users\\admin\\Downloads\\profile.png"); //Uploading the file using sendKeys
 		System.out.println("File is Uploaded Successfully");
@@ -163,7 +168,7 @@ public  void add_tenants_test_withoutName() throws InterruptedException {
 		Thread.sleep(1000);
 		submit.click();
 		Thread.sleep(3000);
-		close.click();
+		isElementExists();
 		Thread.sleep(3000);
 		
 	}
@@ -172,7 +177,7 @@ public  void add_tenants_test_withoutProperNumber() throws InterruptedException 
 	
 	addTenants.click();
 	Thread.sleep(3000);
-	mobileNumber.sendKeys("87778");
+	mobileNumber.sendKeys("9451146");
 	Thread.sleep(3000);
 	next.click();
 	Thread.sleep(3000);
@@ -180,11 +185,11 @@ public  void add_tenants_test_withoutProperNumber() throws InterruptedException 
 	Thread.sleep(1000);
 	flatNo.click();
 	Thread.sleep(1000);
-	fName.sendKeys("aviisek");
+	fName.sendKeys("avskkjk");
 	Thread.sleep(1000);
-	eMail.sendKeys("ramaaa@email.com");
+	eMail.sendKeys("krmhaakalkk@email.com");
 	Thread.sleep(1000);
-	lName.sendKeys("ramaanik");
+	lName.sendKeys("hjkrakmsamanik");
 	Thread.sleep(1000);
 	photo.sendKeys("C:\\Users\\admin\\Downloads\\profile.png"); //Uploading the file using sendKeys
 	System.out.println("File is Uploaded Successfully");
@@ -197,7 +202,7 @@ public  void add_tenants_test_withoutProperNumber() throws InterruptedException 
 	Thread.sleep(1000);
 	submit.click();
 	Thread.sleep(3000);
-	close.click();
+	isElementExists();
 	Thread.sleep(3000);
 	
  }
@@ -206,7 +211,7 @@ public  void add_tenants_test_withoutkyc() throws InterruptedException {
 	
 	addTenants.click();
 	Thread.sleep(3000);
-	mobileNumber.sendKeys("877758");
+	mobileNumber.sendKeys("9300200445");
 	Thread.sleep(3000);
 	next.click();
 	Thread.sleep(3000);
@@ -214,18 +219,18 @@ public  void add_tenants_test_withoutkyc() throws InterruptedException {
 	Thread.sleep(1000);
 	flatNo.click();
 	Thread.sleep(1000);
-	fName.sendKeys("aviisekh");
+	fName.sendKeys("aviisehphkh");
 	Thread.sleep(1000);
-	eMail.sendKeys("ramaaa@email.com");
+	eMail.sendKeys("ramaahkla@gmail.com");
 	Thread.sleep(1000);
-	lName.sendKeys("ramaanik");
+	lName.sendKeys("ramlkhaanik");
 	Thread.sleep(1000);
 	photo.sendKeys("C:\\Users\\admin\\Downloads\\profile.png"); //Uploading the file using sendKeys
 	System.out.println("File is Uploaded Successfully");
 	Thread.sleep(1000);
 	submit.click();
 	Thread.sleep(3000);
-	close.click();
+	isElementExists();
 	Thread.sleep(3000);
 	
  }
@@ -237,7 +242,7 @@ public  void add_tenants_test_withoutkyc() throws InterruptedException {
 		Thread.sleep(3000);
 		tenantsList.click();
 		Thread.sleep(3000);
-		searchTenants.sendKeys("rajanikanth");
+		searchTenants.sendKeys("rajanikanth das");
 		Thread.sleep(3000);
 		searchTenants.sendKeys(Keys.CONTROL + "a");
 		searchTenants.sendKeys(Keys.DELETE);
@@ -261,4 +266,17 @@ public  void add_tenants_test_withoutkyc() throws InterruptedException {
 		
 	}
 
+	public boolean isElementExists() {
+
+		
+		try {
+		    close.click();
+		}
+		catch (org.openqa.selenium.NoSuchElementException e) {
+		    System.out.println(driver.getTitle());
+		}
+		return false;
+	}
+	
+	
 }
