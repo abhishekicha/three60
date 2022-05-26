@@ -1,0 +1,30 @@
+GITHUB SETTINGS CODE :
+FIRST CREATE A FOLDER IN DRIVE D --> GIVE NAME - Git_hub -->
+DOWNLOAD THE GIT BASH +REGISTER IN GITHUB-->THEN GO FILE MANAGER
+WHERE IS YOUR ECLIPSE MYWORKSPACE-->GO TO YOUR CODE FLODER-->
+OPEN GITBASH TERMINAL-->
+      1.git init
+      2.git add .
+      3.git config --global user.name"give your username"
+      4.git config --global user.email"give your email id"
+      5.git status
+      6.git commit -m "write a messge"
+      7.git branch -M main
+      8.git remote add origin copy paste your repo link here
+      9.git push -u origin main 
+
+after writing "git push -u origin main" -->user see github want 
+username and password--->then user see , the eclipse code automatic
+push in github.
+
+If gitbash show the username and password authentication failed...
+then user need --> go to your github profile--> go to settings-->
+go to developer settings--> create my token-->next paste the token 
+in password place.it is that easy way to aviod github password problem.
+
+Again new code push:go to your project folder and open gitbash
+1.git add .
+2.git commit -m "new messege"
+3.git status
+4.git push -u origin main.
+give username and password ....your code will push in Github.
