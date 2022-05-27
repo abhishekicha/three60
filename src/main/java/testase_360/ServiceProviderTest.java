@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 
 import helper.BrowserFactory;
 import pages_360.LoginPage;
-import pages_360.TenantsPage;
+import pages_360.ServiceProvider;
 
-public class TenantsTest {
+public class ServiceProviderTest {
 	
 	@Test
 	public void Property() throws InterruptedException {
@@ -21,24 +21,16 @@ public class TenantsTest {
 		LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
 		//call the method
 		login_page.login_to_360("surajbiswas@yopmail.com", "suraj8877");
-	
-		TenantsPage tPage = PageFactory.initElements(driver, TenantsPage.class);
 		
-		tPage.tenants_test();
+		ServiceProvider spv = PageFactory.initElements(driver, ServiceProvider.class);
 		
-		tPage.add_tenants_test();
+		spv.serviceProvider_test();
 		
-		tPage.add_tenants_test_withoutName();
-		
-		tPage.add_tenants_test_withoutProperNumber();
-		
-		tPage.add_tenants_test_withoutkyc();
-		
-		tPage.tenants_list_test();
+		spv.serviceProviderListFunctionality_test();
 		
 	}
-
-	@AfterMethod(alwaysRun = true)
+	
+	 @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();
