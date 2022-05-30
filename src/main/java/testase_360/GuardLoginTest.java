@@ -14,7 +14,7 @@ public class GuardLoginTest {
 	
 		
 		@Test (groups = { "sanity" })
-		public void Property() throws InterruptedException {
+		public void GuardLogin() throws InterruptedException {
 			//launch browser
 			
 		WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");

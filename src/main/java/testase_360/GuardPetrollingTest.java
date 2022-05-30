@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
 
 import helper.BrowserFactory;
 import pages_360.LoginPage;
-import pages_360.TenantsPage;
+import pages_360.GuardPetrollingRoutes;
 
-public class TenantsTest {
+public class GuardPetrollingTest {
 	
 	@Test
-	public void Tenants() throws InterruptedException {
+	public void GuardPetrollingCheckpoint() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");
@@ -21,24 +21,15 @@ public class TenantsTest {
 		LoginPage login_page = PageFactory.initElements(driver, LoginPage.class);
 		//call the method
 		login_page.login_to_360("surajbiswas@yopmail.com", "suraj8877");
-	
-		TenantsPage tPage = PageFactory.initElements(driver, TenantsPage.class);
 		
-		tPage.tenants_test();
+		GuardPetrollingRoutes gpc = PageFactory.initElements(driver, GuardPetrollingRoutes.class);
 		
-		tPage.add_tenants_test();
+		gpc.guardPetrollingroutes_test();
 		
-		tPage.add_tenants_test_withoutName();
-		
-		tPage.add_tenants_test_withoutProperNumber();
-		
-		tPage.add_tenants_test_withoutkyc();
-		
-		tPage.tenants_list_test();
-		
+		gpc.checkFunctionality_test();
 	}
-
-	@AfterMethod(alwaysRun = true)
+	
+	 @AfterMethod(alwaysRun = true)
 	  public void teardown()
 	  {
 		BrowserFactory.quit();

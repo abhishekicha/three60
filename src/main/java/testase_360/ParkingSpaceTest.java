@@ -13,7 +13,7 @@ import pages_360.ParkingSpacePaage;
 public class ParkingSpaceTest {
 	
 	@Test (groups = { "sanity" })
-	public void Property() throws InterruptedException {
+	public void ParkingSpace() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");

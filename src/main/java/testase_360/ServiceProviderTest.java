@@ -12,7 +12,7 @@ import pages_360.ServiceProvider;
 public class ServiceProviderTest {
 	
 	@Test
-	public void Property() throws InterruptedException {
+	public void ServiceProvider() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");

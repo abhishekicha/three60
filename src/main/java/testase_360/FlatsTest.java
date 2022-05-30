@@ -12,7 +12,7 @@ import pages_360.FlatsPage;
 public class FlatsTest {
 	
 	@Test
-	public void Property() throws InterruptedException {
+	public void Flats() throws InterruptedException {
 		//launch browser
 		
 	WebDriver driver = BrowserFactory.startBrowser("chrome", "https://dev.the360.in/login");
