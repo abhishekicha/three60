@@ -75,7 +75,7 @@ public class GuardPetrollingRoutes {
 		Thread.sleep(3000);
 		addNewRoute.click();
 		Thread.sleep(3000);
-		routeName.sendKeys("Test-022");
+		routeName.sendKeys("Test-023");
 		Thread.sleep(3000);
 		startTime.sendKeys("1205AM");
 		Thread.sleep(3000);

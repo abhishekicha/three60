@@ -57,7 +57,7 @@ public class GuardPetrollingCheckpoint {
 		Thread.sleep(3000);
 		createCheckpoints.click();
 		Thread.sleep(3000);
-		checkPointName.sendKeys("Test-021");
+		checkPointName.sendKeys("Test-023");
 		Thread.sleep(3000);
 		checkPointArea.sendKeys("Main Gate");
 		Thread.sleep(3000);

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testase_360.GuardPetrollingTest">
+      <class name="testase_360.VisitorsLogTest">
         <methods>
+          <include name="Flats"/>
           <include name="teardown"/>
-          <include name="GuardPetrollingCheckpoint"/>
         </methods>
-      </class> <!-- testase_360.GuardPetrollingTest -->
+      </class> <!-- testase_360.VisitorsLogTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
