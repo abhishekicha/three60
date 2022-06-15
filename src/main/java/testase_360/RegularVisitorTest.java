@@ -12,7 +12,7 @@ import pages_360.ReguarVisitorLog;
 public class RegularVisitorTest {
 	
 
-	@Test
+	@Test(priority=1)
 	public void RegularVisitors() throws InterruptedException {
 		//launch browser
 		
@@ -30,7 +30,7 @@ public class RegularVisitorTest {
 		
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void RegularVisitorsSort() throws InterruptedException {
 		//launch browser
 		
@@ -49,7 +49,7 @@ public class RegularVisitorTest {
 		
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void RegularVisitorsSearch() throws InterruptedException {
 		//launch browser
 		
@@ -66,7 +66,7 @@ public class RegularVisitorTest {
 		
 	}
 	
-	@Test
+	@Test(priority=4)
 	public void RegularVisitorsDetails() throws InterruptedException {
 		//launch browser
 		
