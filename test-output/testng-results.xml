@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-06T16:13:38 IST" name="Default suite" finished-at="2022-06-06T16:14:48 IST" duration-ms="70705">
+  <suite started-at="2022-06-15T16:53:11 IST" name="Default suite" finished-at="2022-06-15T16:53:58 IST" duration-ms="46689">
     <groups>
     </groups>
-    <test started-at="2022-06-06T16:13:38 IST" name="Default test" finished-at="2022-06-06T16:14:48 IST" duration-ms="70705">
-      <class name="testase_360.VisitorsLogTest">
-        <test-method signature="Flats()[pri:0, instance:testase_360.VisitorsLogTest@1a451d4d]" started-at="2022-06-06T16:13:38 IST" name="Flats" finished-at="2022-06-06T16:14:48 IST" duration-ms="70524" status="PASS">
+    <test started-at="2022-06-15T16:53:11 IST" name="Default test" finished-at="2022-06-15T16:53:58 IST" duration-ms="46689">
+      <class name="testase_360.RegularVisitorTest">
+        <test-method signature="RegularVisitorsSearch()[pri:0, instance:testase_360.RegularVisitorTest@1a451d4d]" started-at="2022-06-15T16:53:11 IST" name="RegularVisitorsSearch" finished-at="2022-06-15T16:53:58 IST" duration-ms="46506" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Flats -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testase_360.VisitorsLogTest@1a451d4d]" started-at="2022-06-06T16:14:48 IST" name="teardown" finished-at="2022-06-06T16:14:48 IST" duration-ms="155" status="PASS">
+        </test-method> <!-- RegularVisitorsSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testase_360.RegularVisitorTest@1a451d4d]" started-at="2022-06-15T16:53:58 IST" name="teardown" finished-at="2022-06-15T16:53:58 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testase_360.VisitorsLogTest -->
+      </class> <!-- testase_360.RegularVisitorTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
